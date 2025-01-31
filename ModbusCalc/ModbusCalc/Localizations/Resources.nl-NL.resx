@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Automatically generated resource file for Dutch translations -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="DefaultTheme" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>Donker</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>Licht</value>
+  </data>
+  <data name="FunctionCode1" xml:space="preserve">
+    <value>Leesspiralen</value>
+  </data>
+  <data name="FunctionCode2" xml:space="preserve">
+    <value>Discrete ingangen lezen</value>
+  </data>
+  <data name="FunctionCode3" xml:space="preserve">
+    <value>Houdregisters lezen</value>
+  </data>
+  <data name="FunctionCode4" xml:space="preserve">
+    <value>Invoerregisters lezen</value>
+  </data>
+  <data name="FunctionCode5" xml:space="preserve">
+    <value>Enkele spiraal schrijven</value>
+  </data>
+  <data name="FunctionCode6" xml:space="preserve">
+    <value>Enkel register schrijven</value>
+  </data>
+  <data name="FunctionCode7" xml:space="preserve">
+    <value>Meerdere spiralen schrijven</value>
+  </data>
+  <data name="FunctionCode8" xml:space="preserve">
+    <value>Meerdere registers schrijven</value>
+  </data>
+  <data name="DefaultFunction" xml:space="preserve">
+    <value>Standaard</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NoFunctionSelected" xml:space="preserve">
+    <value>Geen functie geselecteerd</value>
+  </data>
+  <data name="功能码_Label" xml:space="preserve">
+    <value>Functecode:</value>
+  </data>
+  <data name="从站地址_Label" xml:space="preserve">
+    <value>Slavernummer:</value>
+  </data>
+  <data name="起始地址_Label" xml:space="preserve">
+    <value>Startadres:</value>
+  </data>
+  <data name="数据值_Label" xml:space="preserve">
+    <value>Datacommentaar:</value>
+  </data>
+  <data name="生成结果_Label" xml:space="preserve">
+    <value>Gegenereerd resultaat: (klik om te kopiëren)</value>
+  </data>
+</root>

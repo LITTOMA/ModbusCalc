@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Automatically generated resource file for French translations -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="DefaultTheme" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>Sombre</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>Clair</value>
+  </data>
+  <data name="FunctionCode1" xml:space="preserve">
+    <value>Lire les bobines</value>
+  </data>
+  <data name="FunctionCode2" xml:space="preserve">
+    <value>Lire les entrées discrètes</value>
+  </data>
+  <data name="FunctionCode3" xml:space="preserve">
+    <value>Lire les registres de maintien</value>
+  </data>
+  <data name="FunctionCode4" xml:space="preserve">
+    <value>Lire les registres d'entrée</value>
+  </data>
+  <data name="FunctionCode5" xml:space="preserve">
+    <value>Écrire une seule bobine</value>
+  </data>
+  <data name="FunctionCode6" xml:space="preserve">
+    <value>Écrire un seul registre</value>
+  </data>
+  <data name="FunctionCode7" xml:space="preserve">
+    <value>Écrire plusieurs bobines</value>
+  </data>
+  <data name="FunctionCode8" xml:space="preserve">
+    <value>Écrire plusieurs registres</value>
+  </data>
+  <data name="DefaultFunction" xml:space="preserve">
+    <value>Défaut</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NoFunctionSelected" xml:space="preserve">
+    <value>Aucune fonction sélectionnée</value>
+  </data>
+  <data name="功能码_Label" xml:space="preserve">
+    <value>Code de fonction :</value>
+  </data>
+  <data name="从站地址_Label" xml:space="preserve">
+    <value>Adresse esclave :</value>
+  </data>
+  <data name="起始地址_Label" xml:space="preserve">
+    <value>Adresse de début :</value>
+  </data>
+  <data name="数据值_Label" xml:space="preserve">
+    <value>Valeur de donnée :</value>
+  </data>
+  <data name="生成结果_Label" xml:space="preserve">
+    <value>Résultat généré : (cliquez pour copier)</value>
+  </data>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Automatically generated resource file for Greek translations -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="FunctionCode_Label" xml:space="preserve">
+    <value>Κωδικός λειτουργίας:</value>
+  </data>
+  <data name="SlaveAddress_Label" xml:space="preserve">
+    <value>Διεύθυνση slave:</value>
+  </data>
+  <data name="StartAddress_Label" xml:space="preserve">
+    <value>Διεύθυνση έναρξης:</value>
+  </data>
+  <data name="DataValue_Label" xml:space="preserve">
+    <value>Τιμή δεδομένων:</value>
+  </data>
+  <data name="ResultMessage" xml:space="preserve">
+    <value>Παραγόμενο αποτέλεσμα: (κλικ για αντιγραφή)</value>
+  </data>
+</root>

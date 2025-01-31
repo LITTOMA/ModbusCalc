@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Automatically generated resource file. -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="FunctionCode_Label" xml:space="preserve">
+    <value>功能码：</value>
+  </data>
+  <data name="SlaveAddress_Label" xml:space="preserve">
+    <value>从站地址：</value>
+  </data>
+  <data name="StartAddress_Label" xml:space="preserve">
+    <value>起始地址：</value>
+  </data>
+  <data name="DataValue_Label" xml:space="preserve">
+    <value>数据值：</value>
+  </data>
+  <data name="ResultMessage" xml:space="preserve">
+    <value>生成结果：(点击复制)</value>
+  </data>
+</root>

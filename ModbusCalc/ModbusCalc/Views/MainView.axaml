@@ -13,14 +13,6 @@
 
   <UserControl.KeyBindings>
     <KeyBinding Gesture="Ctrl+C" Command="{Binding CopyCommand}" />
-    <!-- <KeyBinding Gesture="Ctrl+D1" Command="{Binding SetFunctionCodeCommand}" CommandParameter="1" />
-    <KeyBinding Gesture="Ctrl+D2" Command="{Binding SetFunctionCodeCommand}" CommandParameter="2" />
-    <KeyBinding Gesture="Ctrl+D3" Command="{Binding SetFunctionCodeCommand}" CommandParameter="3" />
-    <KeyBinding Gesture="Ctrl+D4" Command="{Binding SetFunctionCodeCommand}" CommandParameter="4" />
-    <KeyBinding Gesture="Ctrl+D5" Command="{Binding SetFunctionCodeCommand}" CommandParameter="5" />
-    <KeyBinding Gesture="Ctrl+D6" Command="{Binding SetFunctionCodeCommand}" CommandParameter="6" />
-    <KeyBinding Gesture="Ctrl+D7" Command="{Binding SetFunctionCodeCommand}" CommandParameter="7" />
-    <KeyBinding Gesture="Ctrl+D8" Command="{Binding SetFunctionCodeCommand}" CommandParameter="8" /> -->
   </UserControl.KeyBindings>
 
   <Grid RowDefinitions="Auto,*" Margin="20">

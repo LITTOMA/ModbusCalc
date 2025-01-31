@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Automatically generated resource file for Japanese translations -->
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+  <data name="DefaultTheme" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>ダーク</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>ライト</value>
+  </data>
+  <data name="FunctionCode1" xml:space="preserve">
+    <value>コイルを読む</value>
+  </data>
+  <data name="FunctionCode2" xml:space="preserve">
+    <value>ディスクリート入力を読む</value>
+  </data>
+  <data name="FunctionCode3" xml:space="preserve">
+    <value>保持レジスタを読む</value>
+  </data>
+  <data name="FunctionCode4" xml:space="preserve">
+    <value>入力レジスタを読む</value>
+  </data>
+  <data name="FunctionCode5" xml:space="preserve">
+    <value>単一コイルの書き込み</value>
+  </data>
+  <data name="FunctionCode6" xml:space="preserve">
+    <value>単一レジスタの書き込み</value>
+  </data>
+  <data name="FunctionCode7" xml:space="preserve">
+    <value>複数コイルの書き込み</value>
+  </data>
+  <data name="FunctionCode8" xml:space="preserve">
+    <value>複数レジスタの書き込み</value>
+  </data>
+  <data name="DefaultFunction" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="NoFunctionSelected" xml:space="preserve">
+    <value>機能が選択されていません</value>
+  </data>
+  <data name="功能码_Label" xml:space="preserve">
+    <value>関数コード：</value>
+  </data>
+  <data name="从站地址_Label" xml:space="preserve">
+    <value>スレーブアドレス：</value>
+  </data>
+  <data name="起始地址_Label" xml:space="preserve">
+    <value>開始アドレス：</value>
+  </data>
+  <data name="数据值_Label" xml:space="preserve">
+    <value>データ値：</value>
+  </data>
+  <data name="生成结果_Label" xml:space="preserve">
+    <value>生成された結果：（クリックしてコピー）</value>
+  </data>
+</root>
