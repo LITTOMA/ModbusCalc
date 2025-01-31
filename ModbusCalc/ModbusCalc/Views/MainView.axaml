@@ -1,0 +1,73 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:ModbusCalc.ViewModels"
+             xmlns:ui="using:FluentAvalonia.UI.Controls"
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
+             x:Class="ModbusCalc.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <vm:MainViewModel />
+  </Design.DataContext>
+
+  <UserControl.KeyBindings>
+    <KeyBinding Gesture="Ctrl+C" Command="{Binding CopyCommand}" />
+    <!-- <KeyBinding Gesture="Ctrl+D1" Command="{Binding SetFunctionCodeCommand}" CommandParameter="1" />
+    <KeyBinding Gesture="Ctrl+D2" Command="{Binding SetFunctionCodeCommand}" CommandParameter="2" />
+    <KeyBinding Gesture="Ctrl+D3" Command="{Binding SetFunctionCodeCommand}" CommandParameter="3" />
+    <KeyBinding Gesture="Ctrl+D4" Command="{Binding SetFunctionCodeCommand}" CommandParameter="4" />
+    <KeyBinding Gesture="Ctrl+D5" Command="{Binding SetFunctionCodeCommand}" CommandParameter="5" />
+    <KeyBinding Gesture="Ctrl+D6" Command="{Binding SetFunctionCodeCommand}" CommandParameter="6" />
+    <KeyBinding Gesture="Ctrl+D7" Command="{Binding SetFunctionCodeCommand}" CommandParameter="7" />
+    <KeyBinding Gesture="Ctrl+D8" Command="{Binding SetFunctionCodeCommand}" CommandParameter="8" /> -->
+  </UserControl.KeyBindings>
+
+  <Grid RowDefinitions="Auto,*" Margin="20">
+    <StackPanel IsVisible="False">
+      <Button Content="1" Command="{Binding SetFunctionCodeCommand}" CommandParameter="1" HotKey="Ctrl+D1"/>
+      <Button Content="2" Command="{Binding SetFunctionCodeCommand}" CommandParameter="2" HotKey="Ctrl+D2"/>
+      <Button Content="3" Command="{Binding SetFunctionCodeCommand}" CommandParameter="3" HotKey="Ctrl+D3"/>
+      <Button Content="4" Command="{Binding SetFunctionCodeCommand}" CommandParameter="4" HotKey="Ctrl+D4"/>
+      <Button Content="5" Command="{Binding SetFunctionCodeCommand}" CommandParameter="5" HotKey="Ctrl+D5"/>
+      <Button Content="6" Command="{Binding SetFunctionCodeCommand}" CommandParameter="6" HotKey="Ctrl+D6"/>
+      <Button Content="7" Command="{Binding SetFunctionCodeCommand}" CommandParameter="7" HotKey="Ctrl+D7"/>
+      <Button Content="8" Command="{Binding SetFunctionCodeCommand}" CommandParameter="8" HotKey="Ctrl+D8"/>
+    </StackPanel>
+
+    <!-- 输入区 -->
+    <Grid Grid.Row="0" ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto">
+      <!-- Function Code Selection -->
+      <TextBlock Grid.Row="0" Grid.Column="0" Text="功能码：" VerticalAlignment="Center"/>
+      <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding FunctionCodes}" SelectedItem="{Binding SelectedFunction}" HorizontalAlignment="Stretch" />
+
+      <!-- Slave Address -->
+      <TextBlock Grid.Row="1" Grid.Column="0" Text="从站地址：" VerticalAlignment="Center"/>
+      <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SlaveAddress}" HorizontalAlignment="Stretch"/>
+
+      <!-- Start Address -->
+      <TextBlock Grid.Row="2" Grid.Column="0" Text="起始地址：" VerticalAlignment="Center"/>
+      <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding StartAddress}" HorizontalAlignment="Stretch"/>
+
+      <!-- Data Value -->
+      <TextBlock Grid.Row="3" Grid.Column="0" Text="数据值：" VerticalAlignment="Center"/>
+      <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding DataValue}" HorizontalAlignment="Stretch"/>
+    </Grid>
+
+    <!-- 结果显示区 -->
+    <Border Grid.Row="1" 
+            Margin="0,20,0,0"
+            BorderBrush="{DynamicResource ControlStrokeColorDefaultBrush}"
+            BorderThickness="1"
+            CornerRadius="4"
+            Padding="10">
+      <Grid RowDefinitions="Auto,*">
+        <TextBlock Text="生成结果：(点击复制)"
+                    VerticalAlignment="Center"/>
+        <Button Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                  Content="{Binding Result}"
+                  Command="{Binding CopyCommand}"/>
+      </Grid>
+    </Border>
+  </Grid>
+</UserControl>
