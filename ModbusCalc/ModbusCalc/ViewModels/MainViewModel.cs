@@ -24,7 +24,7 @@ public partial class MainViewModel : ViewModelBase
     private List<FunctionCode> _functionCodes = new();
 
     [ObservableProperty]
-    private FunctionCode _selectedFunction = new FunctionCode { Code = 0, Name = "Default" };
+    private FunctionCode _selectedFunction = new FunctionCode { Code = 0, Name = ModbusCalc.Localizations.Resources.DefaultTheme };
 
     [ObservableProperty]
     private int _slaveAddress = 1;
@@ -36,7 +36,7 @@ public partial class MainViewModel : ViewModelBase
     private int _dataValue = 1;
 
     [ObservableProperty]
-    private string _separator = " ";
+    private string _separator = ModbusCalc.Localizations.Resources.Separator;
 
     [ObservableProperty]
     private string _result = "";
@@ -53,14 +53,14 @@ public partial class MainViewModel : ViewModelBase
     {
         FunctionCodes = new List<FunctionCode>
         {
-            new FunctionCode { Code = 0x01, Name = "读取线圈" },
-            new FunctionCode { Code = 0x02, Name = "读取离散输入" },
-            new FunctionCode { Code = 0x03, Name = "读取保持寄存器" },
-            new FunctionCode { Code = 0x04, Name = "读取输入寄存器" },
-            new FunctionCode { Code = 0x05, Name = "写单个线圈" },
-            new FunctionCode { Code = 0x06, Name = "写单个寄存器" },
-            new FunctionCode { Code = 0x0F, Name = "写多个线圈" },
-            new FunctionCode { Code = 0x10, Name = "写多个寄存器" }
+            new FunctionCode { Code = 0x01, Name = ModbusCalc.Localizations.Resources.FunctionCode1 },
+            new FunctionCode { Code = 0x02, Name = ModbusCalc.Localizations.Resources.FunctionCode2 },
+            new FunctionCode { Code = 0x03, Name = ModbusCalc.Localizations.Resources.FunctionCode3 },
+            new FunctionCode { Code = 0x04, Name = ModbusCalc.Localizations.Resources.FunctionCode4 },
+            new FunctionCode { Code = 0x05, Name = ModbusCalc.Localizations.Resources.FunctionCode5 },
+            new FunctionCode { Code = 0x06, Name = ModbusCalc.Localizations.Resources.FunctionCode6 },
+            new FunctionCode { Code = 0x0F, Name = ModbusCalc.Localizations.Resources.FunctionCode7 },
+            new FunctionCode { Code = 0x10, Name = ModbusCalc.Localizations.Resources.FunctionCode8 }
         };
         SelectedFunction = FunctionCodes[0];
     }
@@ -104,7 +104,7 @@ public partial class MainViewModel : ViewModelBase
         // Ensure SelectedFunction is not null
         if (SelectedFunction == null)
         {
-            Result = "未选择功能码";
+            Result = ModbusCalc.Localizations.Resources.NoFunctionSelected;
             return;
         }
 

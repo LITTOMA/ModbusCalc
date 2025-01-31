@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:ModbusCalc.ViewModels"
              xmlns:ui="using:FluentAvalonia.UI.Controls"
+             xmlns:l10n="clr-namespace:ModbusCalc.Localizations"
              mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="450"
              x:Class="ModbusCalc.Views.MainView"
              x:DataType="vm:MainViewModel">
@@ -30,19 +31,19 @@
     <!-- 输入区 -->
     <Grid Grid.Row="0" ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto">
       <!-- Function Code Selection -->
-      <TextBlock Grid.Row="0" Grid.Column="0" Text="功能码：" VerticalAlignment="Center"/>
+      <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static l10n:Resources.功能码_Label}" VerticalAlignment="Center"/>
       <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding FunctionCodes}" SelectedItem="{Binding SelectedFunction}" HorizontalAlignment="Stretch" />
 
       <!-- Slave Address -->
-      <TextBlock Grid.Row="1" Grid.Column="0" Text="从站地址：" VerticalAlignment="Center"/>
+      <TextBlock Grid.Row="1" Grid.Column="0" Text="{x:Static l10n:Resources.从站地址_Label}" VerticalAlignment="Center"/>
       <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding SlaveAddress}" HorizontalAlignment="Stretch"/>
 
       <!-- Start Address -->
-      <TextBlock Grid.Row="2" Grid.Column="0" Text="起始地址：" VerticalAlignment="Center"/>
+      <TextBlock Grid.Row="2" Grid.Column="0" Text="{x:Static l10n:Resources.起始地址_Label}" VerticalAlignment="Center"/>
       <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding StartAddress}" HorizontalAlignment="Stretch"/>
 
       <!-- Data Value -->
-      <TextBlock Grid.Row="3" Grid.Column="0" Text="数据值：" VerticalAlignment="Center"/>
+      <TextBlock Grid.Row="3" Grid.Column="0" Text="{x:Static l10n:Resources.数据值_Label}" VerticalAlignment="Center"/>
       <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding DataValue}" HorizontalAlignment="Stretch"/>
     </Grid>
 
@@ -54,7 +55,7 @@
             CornerRadius="4"
             Padding="10">
       <Grid RowDefinitions="Auto,*">
-        <TextBlock Text="生成结果：(点击复制)"
+        <TextBlock Text="{x:Static l10n:Resources.生成结果_Label}"
                     VerticalAlignment="Center"/>
         <Button Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                   Content="{Binding Result}"
