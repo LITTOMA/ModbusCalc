@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ModbusCalc.Browser",
   "resources": {
-    "hash": "sha256-MIop695eqp2GVruRumXgESvic1eyctElbQveKT34u7g=",
+    "hash": "sha256-t/QvjPmye2WEf/0yPesiWg/QrqtNgPCoDc7UxioA5nE=",
     "fingerprinting": {
       "Avalonia.Base.cujzsywtaz.wasm": "Avalonia.Base.wasm",
       "Avalonia.Browser.qjqaaeu4bh.wasm": "Avalonia.Browser.wasm",
@@ -20,8 +20,8 @@
       "FluentAvalonia.e61egx5wi7.wasm": "FluentAvalonia.wasm",
       "HarfBuzzSharp.2e8ypmf7yl.wasm": "HarfBuzzSharp.wasm",
       "MicroCom.Runtime.kawiq9e355.wasm": "MicroCom.Runtime.wasm",
-      "ModbusCalc.Browser.4fcbh19mgc.wasm": "ModbusCalc.Browser.wasm",
-      "ModbusCalc.k4cbvszvwu.wasm": "ModbusCalc.wasm",
+      "ModbusCalc.Browser.jpr5hs5lpr.wasm": "ModbusCalc.Browser.wasm",
+      "ModbusCalc.82axpe9jqa.wasm": "ModbusCalc.wasm",
       "SkiaSharp.t42xafgue4.wasm": "SkiaSharp.wasm",
       "System.Collections.Concurrent.vnbp3yl5d3.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.NonGeneric.6pg335faez.wasm": "System.Collections.NonGeneric.wasm",
@@ -47,23 +47,23 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "ModbusCalc.resources.ong6tv67wf.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.55vv8kitsl.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.condw6julm.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.q7w21kw1wc.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.qi82xcstpq.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.zpwiy0no17.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.uwv6oj1yhq.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.jdilbxybjg.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.oshedonpcw.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.0j3d0edbkv.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.5x1dreppgv.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.l4k7fknzro.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.2usinyg44c.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.j96ts9a6gf.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.ommv147stj.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.t91mkra07w.wasm": "ModbusCalc.resources.wasm",
-      "ModbusCalc.resources.lcepqgsei1.wasm": "ModbusCalc.resources.wasm"
+      "ModbusCalc.resources.lp8nlol1cz.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.5vp0uw3swr.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.9rhb4dgy9d.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.qa8f38vif1.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.b1dnl70lkw.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.5ccst1znez.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.ll91o2kvi0.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.gpifbj1oul.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.p42ydahuvu.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.3bzev448g1.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.c6me0zxis7.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.ckwuhr3ztn.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.j1t9nxedjn.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.d8qeewkznt.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.mcwohpyjei.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.0g0s293g2w.wasm": "ModbusCalc.resources.wasm",
+      "ModbusCalc.resources.b217erssjp.wasm": "ModbusCalc.resources.wasm"
     },
     "jsModuleNative": {
       "dotnet.native.h081ynpe3s.js": "sha256-0Qwg+KwwiewA1civ3AGJDvmAttde2zaTI9VRJGufCW4="
@@ -101,8 +101,8 @@
       "FluentAvalonia.e61egx5wi7.wasm": "sha256-doE0aU64WmtgZ/UmD7iCyxQQ13gfuAc+0r+/4w5ysDU=",
       "HarfBuzzSharp.2e8ypmf7yl.wasm": "sha256-+t/+/3SDV6ol9SfwpzN6rRM+g1gTRE/3VwC7xvKLC0c=",
       "MicroCom.Runtime.kawiq9e355.wasm": "sha256-/DG+HZx8PONwVHUjUYFoIsqL9jJhDZC37tZRjpi2YhI=",
-      "ModbusCalc.Browser.4fcbh19mgc.wasm": "sha256-oHg3UNQb9J46+DcrFKPWyoWEsh47bVBeYtpxD0o+SaA=",
-      "ModbusCalc.k4cbvszvwu.wasm": "sha256-3I7CTpiJK5WxhDWxH1BOntuHC4tZEAAS9s3D+6vlQu0=",
+      "ModbusCalc.Browser.jpr5hs5lpr.wasm": "sha256-ebMiZu7Nwh3R0R/SsPonENqmcD3X8w8A+tXO9DuyWdw=",
+      "ModbusCalc.82axpe9jqa.wasm": "sha256-MLJFOTan3PRy7Pl4SrKo5xzooUXL2qHoilzSpaC8wqQ=",
       "SkiaSharp.t42xafgue4.wasm": "sha256-8xA+nUGW4cGjIHdLyxLbodV1qfM8wSdTUiJpwPXrZqI=",
       "System.Collections.Concurrent.vnbp3yl5d3.wasm": "sha256-S0Kly05P1Wce1foK/pqArdDIV1GKsQMZ6OmRAcJt53Q=",
       "System.Collections.NonGeneric.6pg335faez.wasm": "sha256-Sv4uW54+X+9qlV81R2PyRuVdrdbqmlKdZfLZhuXqS98=",
@@ -122,55 +122,55 @@
     },
     "satelliteResources": {
       "da-DK": {
-        "ModbusCalc.resources.ong6tv67wf.wasm": "sha256-LC0Aloa/7PXMwraIJcBF4UTt0IBTy6LyRdBxMA3C6C8="
+        "ModbusCalc.resources.lp8nlol1cz.wasm": "sha256-2bDsfnuMgV4Tg+413Y/q4Mvmj/uUoh3qwY6GSUvry5c="
       },
       "de-DE": {
-        "ModbusCalc.resources.55vv8kitsl.wasm": "sha256-lxgb34jCCl2/dUH1vv2oOSZgFd/fWRJ/cfCF5hRJR5Y="
+        "ModbusCalc.resources.5vp0uw3swr.wasm": "sha256-D+8BDiVluBWk5cCrepcNpO3NpDp0vv3kWtkqVi6R8xw="
       },
       "el-GR": {
-        "ModbusCalc.resources.condw6julm.wasm": "sha256-5J4bo3gofgSwYPiKVny+ppEiREEhsZy1V+reFaB5WIA="
+        "ModbusCalc.resources.9rhb4dgy9d.wasm": "sha256-pYbrIrKwZqAxg8Bo4TbAdfecf/epgrc/NYw+u3KMDXw="
       },
       "en-US": {
-        "ModbusCalc.resources.q7w21kw1wc.wasm": "sha256-lsAA+qnFx7FREtRk2S18jld+ILWuA1Ps51qDSJv21c0="
+        "ModbusCalc.resources.qa8f38vif1.wasm": "sha256-wkqzFOpPxrxRUD4GZcchBLwRgztm9u3CwT5BdTlak4I="
       },
       "es-ES": {
-        "ModbusCalc.resources.qi82xcstpq.wasm": "sha256-XvfMxh2C/MaT4seKBuhQr2+Yg6jQhONCSoD96OPlvMw="
+        "ModbusCalc.resources.b1dnl70lkw.wasm": "sha256-v5LU6nCJuN8e/0EjUTZOY4piNxNmBkeHkmOjlQ6xQ1A="
       },
       "fi-FI": {
-        "ModbusCalc.resources.zpwiy0no17.wasm": "sha256-2bc99kzZJAmgu/PdyBsBvsgsbGV9BQpMOw48VHupX5M="
+        "ModbusCalc.resources.5ccst1znez.wasm": "sha256-iwHJFtMnPL/74qU7Z3FqMjUwPMiZfSiaUrqHSBBGhFM="
       },
       "fr-FR": {
-        "ModbusCalc.resources.uwv6oj1yhq.wasm": "sha256-8kSdbJuyo6SGS354VE7PYCOX0QvXRrJApflKSwExRVU="
+        "ModbusCalc.resources.ll91o2kvi0.wasm": "sha256-J7nplo9siFmddywosaGyIK0VmG24ze+fh3fNqnzbRJw="
       },
       "it-IT": {
-        "ModbusCalc.resources.jdilbxybjg.wasm": "sha256-ucBXklnelJaMJcR+hrgpcM6kyrJW4MdiLm22VAvhtKI="
+        "ModbusCalc.resources.gpifbj1oul.wasm": "sha256-dDNGsbJatvMBgeOItP/mC1r+zx6+ykmkieKSMyyYeOg="
       },
       "ja-JP": {
-        "ModbusCalc.resources.oshedonpcw.wasm": "sha256-mI5x3ePaH4E2s2BYjrwyuG7XINHqqGdx0ye6jdzQnPg="
+        "ModbusCalc.resources.p42ydahuvu.wasm": "sha256-SWTSoqvp0AEN+ro0UcQidhLGLdUaJnPHXQ3dKFFCO4M="
       },
       "ko-KR": {
-        "ModbusCalc.resources.0j3d0edbkv.wasm": "sha256-HNvuseizEFwTBgh7SgSgsEG2vH6STt40m7676oBWk6A="
+        "ModbusCalc.resources.3bzev448g1.wasm": "sha256-P/mBgtnAJrZ+6aKzv3D3afJ+Z1k166Zjk6SQjnJOiGk="
       },
       "nb-NO": {
-        "ModbusCalc.resources.5x1dreppgv.wasm": "sha256-B/IUNHoLpxuSF2YB4WViuu+sVOeWWDbZG4B93QxM/SI="
+        "ModbusCalc.resources.c6me0zxis7.wasm": "sha256-PJxXhys2a2WPuzFfHLckGRtNPAmtqSQnmCrNTFiE9eA="
       },
       "nl-NL": {
-        "ModbusCalc.resources.l4k7fknzro.wasm": "sha256-pdCy/kz733glwzcHKpm5uECmKDxIGk4GnCWGLxpwRj8="
+        "ModbusCalc.resources.ckwuhr3ztn.wasm": "sha256-pBI+2gWCrsWnGSvmI7/bPxZCX514ytRDTlBoVEBcm5U="
       },
       "pl-PL": {
-        "ModbusCalc.resources.2usinyg44c.wasm": "sha256-eqFC7pfunDEt9c/xH9BHavrc/UUBEcDFKGOhkk0Ip/M="
+        "ModbusCalc.resources.j1t9nxedjn.wasm": "sha256-R7a+Sxy4bzNpOYc6Q8sS+CR4DHM3uVLL6IPYnOfgimE="
       },
       "pt-PT": {
-        "ModbusCalc.resources.j96ts9a6gf.wasm": "sha256-CbuVmt5RN1CJnUsSS5bv86LprGcJNBXC0vLtvg2O2m8="
+        "ModbusCalc.resources.d8qeewkznt.wasm": "sha256-szXPnoYWm+L2kEz6Mj/IQ6rHesJHJmvrkhMrBxWfxWY="
       },
       "ru-RU": {
-        "ModbusCalc.resources.ommv147stj.wasm": "sha256-sNqDs9ALlTWdhA6VXBKGCpftY/1yC9sRXYpm25PYlb4="
+        "ModbusCalc.resources.mcwohpyjei.wasm": "sha256-OrF78jA/QuadyAaQKfudA6kM7hgI0FJC0UL5xA6fyO4="
       },
       "sv-SE": {
-        "ModbusCalc.resources.t91mkra07w.wasm": "sha256-D9DyKo5xsG2DkAXxUREZ5nh9vRBteCHMxa7pHEIuDBM="
+        "ModbusCalc.resources.0g0s293g2w.wasm": "sha256-QCd6ifh7JmJ/TWQpIaaO1/KMR6VH0DxGiZwhrAuKzjE="
       },
       "zh-CN": {
-        "ModbusCalc.resources.lcepqgsei1.wasm": "sha256-5e45KoAyGDM2cP0sV/DB9UoQzAwOGf4S5gGV7UAUfQE="
+        "ModbusCalc.resources.b217erssjp.wasm": "sha256-I9s2c+NIgoZUDCkm9cBir1p6553Sb6ruzLX7K3+oMW8="
       }
     }
   },
