@@ -16,6 +16,6 @@ internal sealed partial class Program
         .Configure<App>()
         .With(new FontManagerOptions
         {
-            FontFallbacks = [new FontFallback { FontFamily = new FontFamily("avares://ModbusCalc/Assets/SourceHanSansSC-Regular.otf#Source Han Sans SC") }]
+            FontFallbacks = [new FontFallback { FontFamily = new FontFamily("avares://ModbusCalc/Assets/SourceHanSansSC-Regular-subset.otf#Source Han Sans SC") }]
         });
 }
