@@ -59,8 +59,8 @@
                     VerticalAlignment="Center"/>
         <Button Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                 Background="#11FFFFFF"
-                  Content="{Binding Result}"
-                  Command="{Binding CopyCommand}"/>
+                Content="{Binding Result}"
+                Command="{Binding CopyCommand}"/>
       </Grid>
     </Border>
   </Grid>
