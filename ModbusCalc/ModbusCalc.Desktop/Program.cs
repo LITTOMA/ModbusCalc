@@ -1,5 +1,6 @@
 ﻿using System;
 using Avalonia;
+using Avalonia.Media;
 
 namespace ModbusCalc.Desktop;
 
@@ -17,5 +18,9 @@ sealed class Program
         => AppBuilder.Configure<App>()
             .UsePlatformDetect()
             .WithInterFont()
-            .LogToTrace();
+            .LogToTrace()
+            .With(new FontManagerOptions
+            {
+                FontFallbacks = [new FontFallback { FontFamily = new FontFamily("avares://ModbusCalc/Assets/SourceHanSansSC-Regular.otf#Source Han Sans SC") }]
+            });
 }
