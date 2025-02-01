@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <data name="DefaultTheme" xml:space="preserve">
+    <value>Default Theme</value>
+  </data>
+  <data name="DarkTheme" xml:space="preserve">
+    <value>Dark Theme</value>
+  </data>
+  <data name="LightTheme" xml:space="preserve">
+    <value>Light Theme</value>
+  </data>
+  <data name="FunctionCode1" xml:space="preserve">
+    <value>Read Coils</value>
+  </data>
+  <data name="FunctionCode2" xml:space="preserve">
+    <value>Read Discrete Inputs</value>
+  </data>
+  <data name="FunctionCode3" xml:space="preserve">
+    <value>Read Holding Registers</value>
+  </data>
+  <data name="FunctionCode4" xml:space="preserve">
+    <value>Read Input Registers</value>
+  </data>
+  <data name="FunctionCode5" xml:space="preserve">
+    <value>Write Single Coil</value>
+  </data>
+  <data name="FunctionCode6" xml:space="preserve">
+    <value>Write Single Register</value>
+  </data>
+  <data name="FunctionCode7" xml:space="preserve">
+    <value>Read Exception Status</value>
+  </data>
+  <data name="FunctionCode8" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="DefaultFunction" xml:space="preserve">
+    <value>Default Function</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="NoFunctionSelected" xml:space="preserve">
+    <value>No Function Selected</value>
+  </data>
+  <data name="功能码_Label" xml:space="preserve">
+    <value>Function Code</value>
+  </data>
+  <data name="从站地址_Label" xml:space="preserve">
+    <value>Slave Address</value>
+  </data>
+  <data name="起始地址_Label" xml:space="preserve">
+    <value>Start Address</value>
+  </data>
+  <data name="数据值_Label" xml:space="preserve">
+    <value>Data Value</value>
+  </data>
+  <data name="生成结果_Label" xml:space="preserve">
+    <value>Generate Result</value>
+  </data>
+</root>

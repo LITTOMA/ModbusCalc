@@ -13,6 +13,10 @@ public partial class App : Application
 {
     public override void Initialize()
     {
+        // Set culture based on system language
+        var culture = System.Globalization.CultureInfo.CurrentUICulture;
+        System.Globalization.CultureInfo.DefaultThreadCurrentUICulture = culture;
+        
         AvaloniaXamlLoader.Load(this);
     }
 
