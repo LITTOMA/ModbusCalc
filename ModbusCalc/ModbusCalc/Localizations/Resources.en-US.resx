@@ -57,6 +57,9 @@
   <data name="Separator" xml:space="preserve">
     <value>Separator</value>
   </data>
+  <data name="Separator_Label" xml:space="preserve">
+    <value>Separator:</value>
+  </data>
   <data name="NoFunctionSelected" xml:space="preserve">
     <value>No Function Selected</value>
   </data>

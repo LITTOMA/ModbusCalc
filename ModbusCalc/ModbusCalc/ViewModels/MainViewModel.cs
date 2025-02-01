@@ -148,6 +148,7 @@ public partial class MainViewModel : ViewModelBase
     partial void OnStartAddressChanged(int value) => Generate();
     partial void OnDataValueChanged(int value) => Generate();
     partial void OnSelectedFunctionChanged(FunctionCode value) => Generate();
+    partial void OnSeparatorChanged(string value) => Generate();
 
     [RelayCommand]
     private async Task Copy()

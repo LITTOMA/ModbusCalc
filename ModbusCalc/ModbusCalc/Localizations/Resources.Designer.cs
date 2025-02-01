@@ -32,5 +32,6 @@ namespace ModbusCalc.Localizations
         public static string 起始地址_Label => resourceManager.GetString("起始地址_Label");
         public static string 数据值_Label => resourceManager.GetString("数据值_Label");
         public static string 生成结果_Label => resourceManager.GetString("生成结果_Label");
+        public static string Separator_Label => resourceManager.GetString("Separator_Label");
     }
 }

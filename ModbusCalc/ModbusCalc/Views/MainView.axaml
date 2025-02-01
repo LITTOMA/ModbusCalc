@@ -30,7 +30,7 @@
     </StackPanel>
 
     <!-- 输入区 -->
-    <Grid Grid.Row="0" ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto">
+    <Grid Grid.Row="0" ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto">
       <!-- Function Code Selection -->
       <TextBlock Grid.Row="0" Grid.Column="0" Text="{x:Static l10n:Resources.功能码_Label}" VerticalAlignment="Center"/>
       <ComboBox Grid.Row="0" Grid.Column="1" ItemsSource="{Binding FunctionCodes}" SelectedItem="{Binding SelectedFunction}" HorizontalAlignment="Stretch" Background="#11FFFFFF" />
@@ -46,6 +46,11 @@
       <!-- Data Value -->
       <TextBlock Grid.Row="3" Grid.Column="0" Text="{x:Static l10n:Resources.数据值_Label}" VerticalAlignment="Center"/>
       <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding DataValue}" HorizontalAlignment="Stretch" Background="#11FFFFFF"/>
+
+      <!-- Separator -->
+      <TextBlock Grid.Row="4" Grid.Column="0" Text="{x:Static l10n:Resources.Separator_Label}" VerticalAlignment="Center"/>
+      <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Separator}" HorizontalAlignment="Stretch" Background="#11FFFFFF"/>
+
     </Grid>
 
     <!-- 结果显示区 -->

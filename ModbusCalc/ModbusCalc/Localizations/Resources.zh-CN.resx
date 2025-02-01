@@ -28,4 +28,7 @@
   <data name="ResultMessage" xml:space="preserve">
     <value>生成结果：(点击复制)</value>
   </data>
+  <data name="Separator_Label" xml:space="preserve">
+    <value>分隔符：</value>
+  </data>
 </root>
